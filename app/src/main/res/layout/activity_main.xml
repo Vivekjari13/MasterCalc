@@ -86,7 +86,7 @@
             tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/clickHere"
+            android:id="@+id/Know_More"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -94,7 +94,7 @@
             android:layout_marginStart="30dp"
             android:paddingStart="110dp"
             android:background="#80FFFFF"
-            android:text="@string/click_here"
+            android:text="@string/know_more"
             android:textColor="@color/white"
             tools:ignore="DuplicateIds,RtlSymmetry" />
 
