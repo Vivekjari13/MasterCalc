@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F5"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/Calculation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculation_utilities"
+            android:textColor="#212121"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="start"
+            android:background="@drawable/arrow"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/todo3" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="35dp">
+
+        <!-- Mutual Fund -->
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/squre2">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/group"
+                android:contentDescription="@string/todo2"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mutual_fund"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                tools:ignore="ChildInNonViewGroup"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:layout_marginStart="15dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_arrow_forward_24"
+                    android:layout_marginHorizontal="30dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--  Interest -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/squre2"
+            android:layout_marginHorizontal="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/group2"
+                android:contentDescription="@string/todo2"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interest"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                tools:ignore="ChildInNonViewGroup"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:layout_marginStart="15dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_arrow_forward_24"
+                    android:layout_marginHorizontal="30dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 2nd -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="35dp">
+
+        <!-- Discount -->
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/squre2">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/group3"
+                android:contentDescription="@string/todo2"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/discount"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                tools:ignore="ChildInNonViewGroup"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:layout_marginStart="15dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_arrow_forward_24"
+                    android:layout_marginHorizontal="30dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- EMI -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/squre2"
+            android:layout_marginHorizontal="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/group4"
+                android:contentDescription="@string/todo2"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emi"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                tools:ignore="ChildInNonViewGroup"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+
+                    android:layout_marginStart="15dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_arrow_forward_24"
+                    android:layout_marginHorizontal="30dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 3rd   -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="35dp">
+
+        <!-- School Result -->
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/squre2">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/group5"
+                android:contentDescription="@string/todo2"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/school_result"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                tools:ignore="ChildInNonViewGroup"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:layout_marginStart="15dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_arrow_forward_24"
+                    android:layout_marginHorizontal="30dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Age Calculator -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/squre2"
+            android:layout_marginHorizontal="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/group6"
+                android:contentDescription="@string/todo2"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age_calculator"
+                android:textColor="#212121"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                tools:ignore="ChildInNonViewGroup"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/know_more"
+                    android:layout_marginStart="15dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_arrow_forward_24"
+                    android:layout_marginHorizontal="30dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
