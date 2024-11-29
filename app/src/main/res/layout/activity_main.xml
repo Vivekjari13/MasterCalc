@@ -46,7 +46,7 @@
             android:layout_marginStart="110dp"
             android:paddingHorizontal="40dp"
             android:paddingStart="210dp"
-            android:background="#80FFFFFFFF"
+            android:background="@null"
             android:text="Click Here"
             android:textColor="@color/white"
             tools:ignore="HardcodedText,RtlSymmetry" />
@@ -93,7 +93,7 @@
             android:layout_marginBottom="25dp"
             android:layout_marginStart="30dp"
             android:paddingStart="110dp"
-            android:background="#80FFFFF"
+            android:background="@null"
             android:text="@string/know_more"
             android:textColor="@color/white"
             tools:ignore="DuplicateIds,RtlSymmetry" />
