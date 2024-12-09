@@ -26,6 +26,7 @@
             />
 
         <ImageView
+            android:id="@+id/backButton"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="start"
@@ -50,6 +51,7 @@
             android:textSize="15sp" />
 
         <EditText
+            android:id="@+id/Invest"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -76,6 +78,7 @@
             android:textSize="15sp"/>
 
         <EditText
+            android:id="@+id/Return"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -102,6 +105,7 @@
             android:textSize="15sp" />
 
         <EditText
+            android:id="@+id/Time"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -113,6 +117,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/Calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -142,6 +147,7 @@
                 android:textColor="#212121" />
 
             <TextView
+                android:id="@+id/Invested"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_gravity="center"
@@ -164,6 +170,7 @@
                 android:textColor="#212121" />
 
             <TextView
+                android:id="@+id/Est"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_gravity="center"
@@ -185,6 +192,7 @@
                 android:textColor="#212121" />
 
             <TextView
+                android:id="@+id/Total"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_gravity="center"

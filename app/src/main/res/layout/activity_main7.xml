@@ -26,6 +26,7 @@
             />
 
         <ImageView
+            android:id="@+id/backButton"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="start"
@@ -50,6 +51,7 @@
             android:textSize="15sp" />
 
         <EditText
+            android:id="@+id/marks"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -76,6 +78,7 @@
             android:textSize="15sp" />
 
         <EditText
+            android:id="@+id/yourMarks"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -87,6 +90,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -111,6 +115,7 @@
             android:textColor="#212121" />
 
         <TextView
+            android:id="@+id/percent"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_gravity="center"

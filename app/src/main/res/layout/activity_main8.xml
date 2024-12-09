@@ -19,13 +19,14 @@
             android:id="@+id/Calculation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="School Result"
+            android:text="square or hour"
             android:textColor="#212121"
             android:fontFamily="sans-serif"
             android:layout_gravity="center"
             />
 
         <ImageView
+            android:id="@+id/backButton"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="start"
@@ -45,16 +46,17 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Birth Date"
+            android:text="Input Number"
             android:textColor="#212121"
             android:textSize="15sp" />
 
         <EditText
+            android:id="@+id/number"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/squre3"
-            android:hint="Date"
+            android:hint="Number"
             android:padding="10dp"
             tools:ignore="RtlSymmetry" />
 
@@ -71,48 +73,24 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Birth Month"
+            android:text="Add square or hour"
             android:textColor="#212121"
             android:textSize="15sp" />
 
         <EditText
+            android:id="@+id/square"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/squre3"
-            android:hint="Month"
-            android:padding="10dp"
-            tools:ignore="RtlSymmetry" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="18dp"
-        android:layout_marginTop="20dp">
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Birth Year"
-            android:textColor="#212121"
-            android:textSize="15sp"
-            tools:ignore="NestedWeights" />
-
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/squre3"
-            android:hint="Year"
+            android:hint="square or hour"
             android:padding="10dp"
             tools:ignore="RtlSymmetry" />
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -137,6 +115,7 @@
             android:textColor="#212121" />
 
         <TextView
+            android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="20dp"
             android:layout_gravity="center"

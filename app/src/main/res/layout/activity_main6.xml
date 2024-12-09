@@ -26,6 +26,7 @@
             />
 
         <ImageView
+            android:id="@+id/backButton"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="start"
@@ -50,6 +51,7 @@
             android:textSize="15sp" />
 
         <EditText
+            android:id="@+id/loan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -76,6 +78,7 @@
             android:textSize="15sp" />
 
         <EditText
+            android:id="@+id/rate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -96,12 +99,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Total Period in"
+            android:text="Time Period in"
             android:textColor="#212121"
             android:textSize="15sp"
             tools:ignore="NestedWeights" />
 
         <EditText
+            android:id="@+id/TimePeriod"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:background="@drawable/squre3"
@@ -120,6 +124,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/calculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -145,10 +150,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/invested"
+            android:text="Total amount"
             android:textColor="#212121" />
 
         <TextView
+            android:id="@+id/totalAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -165,10 +171,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/invested"
+                android:text="Total interest"
                 android:textColor="#212121" />
 
             <TextView
+                android:id="@+id/totalInterest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -193,6 +200,7 @@
             android:layout_gravity="center"/>
 
         <TextView
+            android:id="@+id/totalPayableAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="_ _ _"

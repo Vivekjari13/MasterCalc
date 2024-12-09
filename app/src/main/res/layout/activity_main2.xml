@@ -26,6 +26,7 @@
             />
 
         <ImageView
+            android:id="@+id/backButton"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="start"
@@ -44,6 +45,7 @@
         <!-- Mutual Fund -->
 
         <LinearLayout
+            android:id="@+id/Mutual"
             android:layout_width="150dp"
             android:layout_height="130dp"
             android:orientation="vertical"
@@ -92,6 +94,7 @@
 
         <!--  Interest -->
         <LinearLayout
+            android:id="@+id/Interest"
             android:layout_width="150dp"
             android:layout_height="130dp"
             android:orientation="vertical"
@@ -152,6 +155,7 @@
         <!-- Discount -->
 
         <LinearLayout
+            android:id="@+id/discount"
             android:layout_width="150dp"
             android:layout_height="130dp"
             android:orientation="vertical"
@@ -200,6 +204,7 @@
 
         <!-- EMI -->
         <LinearLayout
+            android:id="@+id/Emi"
             android:layout_width="150dp"
             android:layout_height="130dp"
             android:orientation="vertical"
@@ -261,6 +266,7 @@
         <!-- School Result -->
 
         <LinearLayout
+            android:id="@+id/School"
             android:layout_width="150dp"
             android:layout_height="130dp"
             android:orientation="vertical"
@@ -309,6 +315,7 @@
 
         <!-- Age Calculator -->
         <LinearLayout
+            android:id="@+id/Age"
             android:layout_width="150dp"
             android:layout_height="130dp"
             android:orientation="vertical"
@@ -327,7 +334,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/age_calculator"
+                android:text="square or hour"
                 android:textColor="#212121"
                 android:fontFamily="sans-serif-black"
                 android:textSize="16sp"
