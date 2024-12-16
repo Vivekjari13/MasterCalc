@@ -29,7 +29,8 @@ making it an indispensable tool for daily life.
 - Java language
 - Android Studio
 
-### Pictures of application ![Screenshot_20241209_123108](https://github.com/user-attachments/assets/1027c200-2fec-45e8-8c3e-110f24d9e70c)
+### Pictures of application 
+
 <img src = "https://github.com/user-attachments/assets/d1b9b490-8be2-47ec-8d65-10aa7bdc19a8" width=200/>
 <img src = "https://github.com/user-attachments/assets/47a3852b-6d60-4daf-807b-217b573ef5ab" width=200/>
 <img src = "https://github.com/user-attachments/assets/fae62805-09d9-46e7-bdde-d42fcb5c0588" width=200/>
@@ -38,6 +39,7 @@ making it an indispensable tool for daily life.
 <img src = "https://github.com/user-attachments/assets/bfab5eeb-51e1-43d5-83f8-ee6aba6d3c55" width=200/>
 <img src = "https://github.com/user-attachments/assets/0b9f6975-c7dd-442e-a2d9-0288db4b9158" width=200/>
 <img src = "https://github.com/user-attachments/assets/40f10d1f-b3eb-4994-89e8-0cb1768ec190" width=200/>
+<img src = "https://github.com/user-attachments/assets/1027c200-2fec-45e8-8c3e-110f24d9e70c" width=200/>
 
 ### Demo
 
